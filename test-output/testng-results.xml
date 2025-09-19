@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-19T21:45:01 IST" name="Default suite" finished-at="2025-09-19T21:45:52 IST" duration-ms="50660">
+    <groups>
+    </groups>
+    <test started-at="2025-09-19T21:45:01 IST" name="Default test" finished-at="2025-09-19T21:45:52 IST" duration-ms="50660">
+      <class name="testpkg.TestClass">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:01 IST" name="setUp" finished-at="2025-09-19T21:45:01 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="open()[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:01 IST" name="open" finished-at="2025-09-19T21:45:07 IST" duration-ms="5789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:07 IST" name="createTest" finished-at="2025-09-19T21:45:07 IST" duration-ms="71" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.TestClass.logoCheck()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method signature="logoCheck()[pri:1, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:07 IST" name="logoCheck" finished-at="2025-09-19T21:45:07 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoCheck -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:07 IST" name="browserClose" finished-at="2025-09-19T21:45:07 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoCheck status=SUCCESS method=TestClass.logoCheck()[pri:1, instance:testpkg.TestClass@4b8d604b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:07 IST" name="createTest" finished-at="2025-09-19T21:45:07 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.TestClass.titleCheck()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method signature="titleCheck()[pri:2, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:07 IST" name="titleCheck" finished-at="2025-09-19T21:45:08 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleCheck -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:08 IST" name="browserClose" finished-at="2025-09-19T21:45:08 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=titleCheck status=SUCCESS method=TestClass.titleCheck()[pri:2, instance:testpkg.TestClass@4b8d604b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:08 IST" name="createTest" finished-at="2025-09-19T21:45:08 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.TestClass.scrollButtonCheck()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method signature="scrollButtonCheck()[pri:3, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:08 IST" name="scrollButtonCheck" finished-at="2025-09-19T21:45:08 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollButtonCheck -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:08 IST" name="browserClose" finished-at="2025-09-19T21:45:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scrollButtonCheck status=SUCCESS method=TestClass.scrollButtonCheck()[pri:3, instance:testpkg.TestClass@4b8d604b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:08 IST" name="createTest" finished-at="2025-09-19T21:45:08 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.TestClass.navigationMenuCheck()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method signature="navigationMenuCheck()[pri:4, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:08 IST" name="navigationMenuCheck" finished-at="2025-09-19T21:45:09 IST" duration-ms="1404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationMenuCheck -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:09 IST" name="browserClose" finished-at="2025-09-19T21:45:09 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigationMenuCheck status=SUCCESS method=TestClass.navigationMenuCheck()[pri:4, instance:testpkg.TestClass@4b8d604b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:09 IST" name="createTest" finished-at="2025-09-19T21:45:09 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.TestClass.searchCheck()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method signature="searchCheck()[pri:5, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:09 IST" name="searchCheck" finished-at="2025-09-19T21:45:19 IST" duration-ms="9804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCheck -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:19 IST" name="browserClose" finished-at="2025-09-19T21:45:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchCheck status=SUCCESS method=TestClass.searchCheck()[pri:5, instance:testpkg.TestClass@4b8d604b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:21 IST" name="createTest" finished-at="2025-09-19T21:45:21 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.TestClass.newsCheck(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method signature="newsCheck(java.lang.String,java.lang.String)[pri:6, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:21 IST" name="newsCheck" data-provider="newsletterData" finished-at="2025-09-19T21:45:28 IST" duration-ms="7368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jeswin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jeswinraju807@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newsCheck -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:28 IST" name="browserClose" finished-at="2025-09-19T21:45:28 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=newsCheck status=SUCCESS method=TestClass.newsCheck(java.lang.String,java.lang.String)[pri:6, instance:testpkg.TestClass@4b8d604b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:28 IST" name="createTest" finished-at="2025-09-19T21:45:28 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.TestClass.newsCheck(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method signature="newsCheck(java.lang.String,java.lang.String)[pri:6, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:28 IST" name="newsCheck" data-provider="newsletterData" finished-at="2025-09-19T21:45:34 IST" duration-ms="5498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tester1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tester1@test.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newsCheck -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:34 IST" name="browserClose" finished-at="2025-09-19T21:45:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=newsCheck status=SUCCESS method=TestClass.newsCheck(java.lang.String,java.lang.String)[pri:6, instance:testpkg.TestClass@4b8d604b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:34 IST" name="createTest" finished-at="2025-09-19T21:45:34 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.TestClass.newsCheck(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method signature="newsCheck(java.lang.String,java.lang.String)[pri:6, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:34 IST" name="newsCheck" data-provider="newsletterData" finished-at="2025-09-19T21:45:41 IST" duration-ms="7521" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newsCheck -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:41 IST" name="browserClose" finished-at="2025-09-19T21:45:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=newsCheck status=SUCCESS method=TestClass.newsCheck(java.lang.String,java.lang.String)[pri:6, instance:testpkg.TestClass@4b8d604b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:41 IST" name="createTest" finished-at="2025-09-19T21:45:41 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.TestClass.goingUp()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method signature="goingUp()[pri:7, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:41 IST" name="goingUp" finished-at="2025-09-19T21:45:41 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goingUp -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:41 IST" name="browserClose" finished-at="2025-09-19T21:45:41 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goingUp status=SUCCESS method=TestClass.goingUp()[pri:7, instance:testpkg.TestClass@4b8d604b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:41 IST" name="createTest" finished-at="2025-09-19T21:45:41 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.TestClass.where()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method signature="where()[pri:8, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:41 IST" name="where" finished-at="2025-09-19T21:45:45 IST" duration-ms="3400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- where -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:45 IST" name="browserClose" finished-at="2025-09-19T21:45:45 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=where status=SUCCESS method=TestClass.where()[pri:8, instance:testpkg.TestClass@4b8d604b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:45 IST" name="createTest" finished-at="2025-09-19T21:45:45 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.TestClass.experiences()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method signature="experiences()[pri:9, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:45 IST" name="experiences" finished-at="2025-09-19T21:45:48 IST" duration-ms="3676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- experiences -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:48 IST" name="browserClose" finished-at="2025-09-19T21:45:48 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=experiences status=SUCCESS method=TestClass.experiences()[pri:9, instance:testpkg.TestClass@4b8d604b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="createTest(java.lang.reflect.Method)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:48 IST" name="createTest" finished-at="2025-09-19T21:45:48 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testpkg.TestClass.plan()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method signature="plan()[pri:10, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:48 IST" name="plan" finished-at="2025-09-19T21:45:49 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plan -->
+        <test-method is-config="true" signature="browserClose(org.testng.ITestResult)[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:49 IST" name="browserClose" finished-at="2025-09-19T21:45:49 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=plan status=SUCCESS method=TestClass.plan()[pri:10, instance:testpkg.TestClass@4b8d604b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpkg.TestClass@4b8d604b]" started-at="2025-09-19T21:45:49 IST" name="tearDown" finished-at="2025-09-19T21:45:52 IST" duration-ms="2414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testpkg.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
